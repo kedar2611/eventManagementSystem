@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="">
+        <p class="heading">Payment form for Event</p>
+        <p class="heading-2">Personal Details</p>
+        <div class="payment">
+        <p class="details">Name: <input type="text" name="name"></p>
+        <p class="details">Email: <input type="email" name="email" class="email"></p>
+        <p class="details">Event Date and Time: <input type="datetime-local"></p>
+        <p class="details">Number of Members <input type="number"></p>
+        <!-- <p class="heading-2">Payment Info</p> -->
+        <div class="cards">
+            <p>WE ACCEPT</p>
+            <img src="../images/pngegg.png" alt="" width="200" height="200">
+            <img src="../images/pngegg (2).png" alt="" width="200" height="200">
+            <img src="../images/pngegg (1).png" alt="" width="200" height="200">
+        </div>
+        <p class="details">Card Type: 
+            <select name="card-type" id="">
+                <option value="">--Select card type</option>
+                <option value="">Visa</option>
+                <option value="">Rupay</option>
+                <option value="">Mastercard</option>
+            </select>   
+        </p>      
+        <p class="details">
+            Card Number: <input type="number" name="card__number" > 
+        </p>
+        <p class="details">CVV: <input type="password" name="cvv"></p>
+        <a class="details" href="mailto:movieac19@gmail.com"><button>SUBMIT</button></a>
+    </div>
+    </form>
+</body>
+</html>
